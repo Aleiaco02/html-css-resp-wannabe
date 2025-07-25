@@ -128,4 +128,28 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- 
+ /* regole ipad */
+ @media screen and (max-width:768px){
+    .site-header{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+/* regole smartphone */
+ @media screen and (max-width:480px){
+
+    .site-header{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    
+}
+
