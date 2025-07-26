@@ -150,6 +150,16 @@ img {
         width: 100%;
     }
 
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
     
+    .col {
+        width: 100%;
+        display: contents;
+    }
+
 }
 
