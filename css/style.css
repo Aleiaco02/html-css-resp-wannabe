@@ -136,6 +136,7 @@ img {
 
     .container{
         width: 100%;
+        padding-bottom: 40px;
     }
 }
 
@@ -153,13 +154,46 @@ img {
     .row{
         display: flex;
         flex-wrap: wrap;
-        gap: 60px;
+        gap: 70px;
     }
     
-    .col {
+    .lessons .col {
         width: 100%;
-        display: contents;
+     }
+
+    .lessons .col img {
+        width: 100%;
+        margin-bottom: 1rem;
     }
 
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    
+    .steps{
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    .why-us{
+        background-color: rgb(30, 30, 30);
+        padding-top: 3rem;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    
 }
 
